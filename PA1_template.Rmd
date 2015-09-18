@@ -1,11 +1,8 @@
----
-output: html_document
----
 Peer Assessment 1
 ===================
 ## Loading and preprocessing the data
 ```{r ,echo=TRUE}
-activityData <- read.csv("activity.csv")
+activityData <- read.csv("./activity.csv")
 str(activityData)
 ```
 
